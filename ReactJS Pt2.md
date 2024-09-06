@@ -27,3 +27,48 @@ JSX lets you put markup into JavaScript. Curly braces let you "escape back" into
 
 ![image](https://github.com/user-attachments/assets/63ea8704-35e2-4fd7-a2b7-e8ed696f9819)
 
+**Conditional rendering**
+
+In React, there is no special syntax for writing conditions. Instead, you'll use the same technique you use when writing regular JavaScript code. 
+
+![image](https://github.com/user-attachments/assets/70673480-c4d8-4f9d-a7e9-20b5577ee568)
+
+**Rendering lists**
+
+Rely on JavaScript features like *for loop* and the *array map() function* to render lists of components.
+
+![image](https://github.com/user-attachments/assets/8fbff0a9-26ab-40a5-b0c6-6237bcc7bee4)
+
+**Responding to events**
+
+You can respond to events by declaring event handler functions inside your components
+
+![image](https://github.com/user-attachments/assets/629608ac-5dd6-4849-b858-a5bd5e4aa37a)
+
+
+**Updating the screen**
+
+If you want your component to remember to some information and display it:
+
+  1. First import *useState* from 'react';
+     
+  ![image](https://github.com/user-attachments/assets/7515d074-d230-4d78-8890-e3c7282101c3)
+
+  2. Now you can declare a state variable inside your component
+
+     ![image](https://github.com/user-attachments/assets/e576abe5-5b6b-4314-8db7-07a635d3b301)
+
+You will get 2 things from *useState*: 
+
+  the current state (count) and the function that lets you update it (setCount). You can name them anyhow, but the convention to write is [something, setSomething].
+
+  The first time the button is displayed, count will be 0 because you passed 0 to *useState()*. When you want to change state, call *setCount()* and pass the new value to it.
+
+![image](https://github.com/user-attachments/assets/03ddb966-c424-4d27-ad59-8b90f011835e)
+
+**Using Hooks**
+
+Functions starting with *use* are called Hooks. *useState* is a built-in hook provided by React. Hooks are more restrictive than other functions. You can only call Hooks at the top of your components. If you want to use *useState* in a condition or a loop, extract a new component and put it there.
+
+**Sharing data between components**
+
