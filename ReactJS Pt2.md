@@ -87,3 +87,9 @@ The info you pass down like this is called props. Now the MyApp component contai
 ![image](https://github.com/user-attachments/assets/af46ba58-e176-491d-8234-450173084353)
 
 ![image](https://github.com/user-attachments/assets/1dcd65a3-8553-48cf-b3e2-4fbe38346667)
+
+# Describe THE UI: First Component
+
+React puts interactivity first while still using the same technology. A React component is a JavaScript function that you can sprinkle with markup.
+
+Step 1: Export the component
