@@ -72,3 +72,10 @@ Functions starting with *use* are called Hooks. *useState* is a built-in hook pr
 
 **Sharing data between components**
 
+To make both button components display the same count and update together, you need to move the state from the individual buttons, upwards to the closest component containing all of them.
+
+![image](https://github.com/user-attachments/assets/0e3e5811-4422-4e10-a41f-e67b5914eb89)
+
+![image](https://github.com/user-attachments/assets/e71f619d-7711-4a42-8a6c-e04f2b78025d)
+
+Then, pass the state from MyApp to each MyButton, together with the shared click handler. Pass info to MyButton using the JSX curly braces
