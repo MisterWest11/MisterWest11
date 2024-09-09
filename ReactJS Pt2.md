@@ -79,3 +79,6 @@ To make both button components display the same count and update together, you n
 ![image](https://github.com/user-attachments/assets/e71f619d-7711-4a42-8a6c-e04f2b78025d)
 
 Then, pass the state from MyApp to each MyButton, together with the shared click handler. Pass info to MyButton using the JSX curly braces
+
+![image](https://github.com/user-attachments/assets/45221c7a-f752-42a8-9321-f508335b82ad)
+
