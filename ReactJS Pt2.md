@@ -82,3 +82,8 @@ Then, pass the state from MyApp to each MyButton, together with the shared click
 
 ![image](https://github.com/user-attachments/assets/45221c7a-f752-42a8-9321-f508335b82ad)
 
+The info you pass down like this is called props. Now the MyApp component contains the *count* state and the *handleClick* event handler and passes both of them down as props to each of the buttons. Finally, change MyButton to read the props(parameters) you have passed from its parent component:
+
+![image](https://github.com/user-attachments/assets/af46ba58-e176-491d-8234-450173084353)
+
+![image](https://github.com/user-attachments/assets/1dcd65a3-8553-48cf-b3e2-4fbe38346667)
